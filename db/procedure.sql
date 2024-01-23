@@ -3,8 +3,9 @@ set @count = 0;
 call p_sum(10, 20, @result, @count);
 
 select
-	@count;
-    
+	@count, @result;
+select
+	@result;
     
     
 SHOW GLOBAL VARIABLES; 
